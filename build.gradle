@@ -10,7 +10,12 @@ buildscript {
         viewPager = "1.0.0"
         //lifecycle
         liftCycleVersion = "2.5.1"
+        hiltVersion = "2.38.1"
 
+    }
+
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
     }
 }
 

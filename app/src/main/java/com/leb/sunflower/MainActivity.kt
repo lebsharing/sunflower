@@ -8,7 +8,9 @@ import com.leb.sunflower.adapters.MY_GARDEN_PAGE_INDEX
 import com.leb.sunflower.adapters.PLANT_LIST_PAGE_INDEX
 import com.leb.sunflower.adapters.SunflowerPagerAdapter
 import com.leb.sunflower.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     lateinit var mainBinding:ActivityMainBinding;
 
